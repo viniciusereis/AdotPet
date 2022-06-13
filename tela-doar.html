@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doar animal</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg bg-light">
+        <div id="menu-inteiro" class="container-fluid">
+            <img id="logo" src="imagem/logo.png" alt="Responsive image">            
+            <div id="input-menu-search">
+                <input type="search" placeholder="Pesquisar" aria-label="Search">
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="col-md-6">
+                    <img src="imagem/cachorro" class="img-fluid rounded-start" alt="Responsive image">
+                </div>
+            </div>
+
+            <!--CONTATO DO DOADOR-->
+            <div class="col">
+                <h4>Contato do doador</h4>
+                <label>Nome:
+                    <input type="text" placeholder="Nome completo...">
+                </label> </br> </br>
+                <label>E-mail:
+                    <input type="text" placeholder="E-mail válido...">
+                </label> </br> </br>
+                <label>Telefone:
+                    <input type="text" placeholder="Digite aqui...">
+                </label> </br> </br>
+
+            </div>
+            <div class="w-100"></div>
+
+            <!---DADOS DO ANIMAL-->
+            <div class="col">
+                <h4>Dados do animal</h4>
+                <label>Nome:
+                    <input type="text" placeholder="Digite aqui...">
+                </label></br> </br>
+                <label>Idade:
+                    <input type="text" placeholder="Digite aqui...">
+                </label>
+                <label>Raça:
+                    <input type="text" placeholder="Digite aqui...">
+                </label>
+                </br> </br>
+                <label>Sexo:
+                    <select>
+                        <option>Selecione</option>
+                        <option>Macho</option>
+                        <option>Fêmea</option>
+                    </select>
+                </label>
+                <label>Castrado?
+                    <select>
+                        <option>Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </label></br> </br>
+                <label>Descrição:
+                    <textarea></textarea>
+                </label>
+            </div>
+
+            <div class="col">
+                <!--ENDEREÇO DO DOADOR-->
+                <h4>Endereço</h4>
+                <label>Rua
+                    <input type="text" placeholder="Digite aqui...">
+                </label></br> </br>
+
+
+                <label>Cep
+                    <input type="text" placeholder="Digite aqui...">
+                </label></br> </br>
+                <label>
+                    <span>Cidade</span>
+                    <input type="text" placeholder="Digite aqui...">
+                </label>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a id="botao-cadastrar-animal" href="catalogo.html" class="btn btn-primary btn-lg"
+                    role="button">Cadastrar</a>
+            </div>
+        </div>
+    </div>
+</body>

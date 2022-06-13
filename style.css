@@ -1,0 +1,141 @@
+/* Tela do Catálogo */
+#logo{
+  position: absolute;
+  max-width: 200px;
+  top: 0px;
+}
+#botao-navbar{
+  margin-left: 75%;
+  background-color: #EDD000;
+
+}
+
+#menu-inteiro{
+  background-color: #2A8EDF;
+  z-index: 999;
+  height: 100px;
+  top: 100%;
+  
+
+}
+
+#input-menu-search{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  
+
+}
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px pink;
+  
+}
+#logo-usuario{
+  position: absolute;
+  max-width: 50px;
+  top: 30px;
+  right: 4%;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+                 /* Tela dos formulários Entrar e Cadastrar */
+/*---------------------------------------------------------------------------------*/
+
+/*Div onde o formulário vai ficar na página*/
+.login-page {
+  width: 360px;
+  padding: 16% 0 0;
+  margin: auto;
+  
+  
+}
+#titulo-menu{
+  color: #478D76;
+}
+/*Cor de fundo do formulário*/
+.form {
+  position: relative;
+  z-index: 1;
+  background: #022223;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+/*Caixas de texto do formulário*/
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+/*Botão do formulário*/
+#button-entrar {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #CC9704;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------*/
+                                /* Fundo do Site */
+/*---------------------------------------------------------------------------------*/
+
+body{
+  background:"imagem/fundo";
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+                                /* Catalogo */
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+                             /* Doar animal */
+/*---------------------------------------------------------------------------------*/
+
+input{
+  display: block;
+}
+
+textarea{
+  display: block;
+}
+
+#botao-cadastrar-animal{
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+
+/*---------------------------------------------------------------------------------*/
+                             /* Perfil de usuário */
+/*---------------------------------------------------------------------------------*/
+#imagem-perfil{
+  width: 200px;
+}
